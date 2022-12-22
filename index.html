@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;      0,700;1,500&display=swap"
+    rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="button-container">
+      <button onclick="getheroo()" class="button-85" role="button">Get a Hero</button>
+      <input type="search" id="search-hero" placeholder="Search your Hero" onchange="searchHero()">
+    </div>
+
+    <div class="img-container">
+      <img src="" class="img" id="puthero" />
+    </div>
+    <div class="hero-nameDiv">
+      <p id="heroname"></p>
+    </div>
+
+
+
+    <div class="Flex-title">
+      <p id="Flex-item"> PowerStats </p>
+    </div>
+
+    <div class="Grid-Stats">
+      <div>
+        <p id="combat" class="stats-text"> Combat </p>
+      </div>
+      <div>
+        <p id="durability" class="stats-text"> durability </p>
+      </div>
+      <div>
+        <p id="intelligence" class="stats-text"> intelligence </p>
+      </div>
+      <div>
+        <p id="power" class="stats-text"> power </p>
+      </div>
+      <div>
+        <p id="speed" class="stats-text"> speed </p>
+      </div>
+      <div>
+        <p id="strength" class="stats-text"> strength </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
